@@ -52,6 +52,16 @@ cursor.execute(f"Select * from Department where DeptNo={dno}")
 for dept in cursor:
     print(dept)
 
+# For Delete
+
+dno = int(input('Enter DeptNo for Delete'))
+
+cursor.execute(f"Delete From Department where DeptNo={dno}")
+cursor.execute("Select * from Department")
+for dept in cursor:
+    print(dept)
+
+
 
 
 
