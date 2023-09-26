@@ -6,11 +6,6 @@
 # In our examples we will be using a CSV file called 'data.csv'.
 
 import pandas as pd
-
-
-
-
-
 # Print total number of records
 print(f"Number of records {pd.options.display.max_rows}")
 
