@@ -14,13 +14,13 @@ print(power(3,4,lambda x,y:  x ** y))
 
 print(power(3,4,lambda x,y:  y ** x))
 
-# Function that retirns a lambda
+# Function that returns a lambda
 # 1. Define a function  
 
 def sq(x):
     return lambda x: x * x
 
-# 2. Calling the funciton
+# 2. Calling the function
 square = sq(1)
 
 # Since the sq() function returns a function, the square is also a function
