@@ -45,20 +45,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/DataSets_Dw/sample-csv-files-main/files/customers/customers-100.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=":" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/DataSets_Dw/sample-csv-files-main/files/customers/customers-100000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=":" />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/files/data.csv">
           <value>
             <Attribute>
@@ -74,6 +60,13 @@
           </value>
         </entry>
         <entry key="/files/employees_data_new.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/files/nba.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
